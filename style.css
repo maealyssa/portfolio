@@ -1,0 +1,44 @@
+/* I changed the background color to compliment the header background color */
+body{
+  background-color: #86AC9D;
+  font-family: 'Georgia';
+}
+
+header {
+  text-align: center;
+  background-color: #3E5B4F;
+  padding: 0;
+}
+/* Adding a background color to h2 allows it to stand out more */
+h2{
+  background-color: #3E5B4F;
+}
+
+p {
+  font-size: 20px;;
+}
+/* I struggled with this section because I wanted the image on the left
+while the text was on the right, which I was able to do with display and float */
+img {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-left: 10%;
+  display: block;
+}
+/*I changed the color of the links because I didn't want it to be purple */
+a {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.intro, .about-me, .contact-me {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  margin-left: 5%;
+}
