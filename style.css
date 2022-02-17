@@ -31,6 +31,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: yellow;
+} 
+  
 ul {
   list-style-type: none;
 }
